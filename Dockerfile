@@ -5,4 +5,6 @@ COPY server.js /opt/server.js
 
 WORKDIR /opt
 
+EXPOSE 3213
+
 CMD ["node", "server.js"]
